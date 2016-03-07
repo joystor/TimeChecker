@@ -1,0 +1,45 @@
+<div class="row">
+  <div class="control-group">
+    <div class="controls">
+
+      <!--div class="col-sm-12">
+        <label for="dpTOTUser" class="control-label">Vendedor:</label>
+        <div class="input-group">
+          <select id="dpTOTUser" type="text" class="form-control">
+          </select>
+          <label for="dpTOTUser" class="input-group-addon btn"><span class="glyphicon glyphicon-user"></span>
+          </label>
+        </div>
+      </div-->
+
+      <div class="col-sm-6">
+        <label for="dpTOTFrom" class="control-label">Inicio:</label>
+        <div class="input-group">
+          <input id="dpTOTFrom" type="text" class="date-picker form-control" data-provide="datepicker" data-date-end-date="0d" disabled/>
+          <label for="dpTOTFrom" class="input-group-addon btn"><span class="glyphicon glyphicon-calendar"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <label for="dpTOTTo" class="control-label">Fin:</label>
+        <div class="input-group">
+          <input id="dpTOTTo" type="text" class="date-picker form-control" data-provide="datepicker" data-date-end-date="0d" disabled/>
+          <label for="dpTOTTo" class="input-group-addon btn"><span class="glyphicon glyphicon-calendar"></span>
+          </label>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="divider"></div>
+<div class="row">
+  <div style="overflow-x: auto; overflow-y: auto; height: 320px;">
+    <table class="table table-striped table-hover" style="min-width: 600px;">
+      <!--caption>Total de horas por dia</caption-->
+      <thead id="tblRepTOTH"></thead>
+      <tbody id="tblRepTOTB"></tbody>
+    </table>
+  </div>
+</div>

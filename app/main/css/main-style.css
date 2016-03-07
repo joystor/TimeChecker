@@ -1,0 +1,75 @@
+
+.pt-page-CONTENT {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.shwTblPWD {
+  width: 40px;
+}
+.shwTblPWD:hover span {
+  display:none;
+}
+.shwTblPWD:hover:before {
+  content: attr(data-pwd);
+}
+
+#contLogin {
+  position: absolute;
+  top: 200px;
+}
+
+#btnConfigAdmin {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+}
+
+#btnConfigExit {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+}
+
+#contTools {
+  position: absolute;
+  top: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+}
+
+
+.divider {
+  height: 1px;
+  width:100%;
+  display:block; /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+.btnLogS {
+  display:none;
+}
+
+#msgLogin {
+  position: fixed;
+  top: 120px;
+  width: 95%;
+  height: 70px;
+}
+
+
+#secTime {
+  position: fixed;
+  top: 55px;
+  right: 10px;
+}
+
+body {
+  -webkit-user-select: none;
+}

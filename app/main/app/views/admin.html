@@ -1,0 +1,54 @@
+<div id="btnConfigExit">
+  <button id="btnExitConfig" type="button" class="btn btn-primary">
+    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+  </button>
+</div>
+
+<div class="row" id="contTools">
+  <ul class="nav nav-tabs" role="tablist" id="TabTools">
+    <li role="presentation" class="active">
+      <a href="#tabUsuarios" aria-controls="tabUsuarios" role="tab" data-toggle="tab" class="label-primary">
+        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+      </a>
+    </li>
+    <li role="presentation">
+      <a href="#tabTotal" aria-controls="tabTotal" role="tab" data-toggle="tab" class="label-success">
+        <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+      </a>
+    </li>
+    <li role="presentation">
+      <a href="#tabDetalle" aria-controls="tabDetalle" role="tab" data-toggle="tab" class="label-info">
+        <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+      </a>
+    </li>
+    <li role="presentation">
+      <a href="#tabConfig" aria-controls="tabConfig" role="tab" data-toggle="tab" class="label-warning">
+        <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+      </a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane fade in active" id="tabUsuarios">
+      <!-- USUARIOS -->
+      <div class="divider"></div>
+      <div id="secAdmUser"></div>
+    </div>
+    <div role="tabpanel" class="tab-pane fade" id="tabTotal">
+      <!-- TOTAL -->
+      <div class="divider"></div>
+      <div id="secAdmRepTotal"></div>
+    </div>
+    <div role="tabpanel" class="tab-pane fade" id="tabDetalle">
+      <!-- DETALLE -->
+      <div class="divider"></div>
+      <div id="secAdmRepDetalle"></div>
+    </div>
+    <div role="tabpanel" class="tab-pane fade" id="tabConfig">
+      <!-- CONFIGURACION -->
+      <div class="divider"></div>
+      <div id="secAdmConfig"></div>
+    </div>
+  </div>
+</div>

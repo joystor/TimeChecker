@@ -1,0 +1,22 @@
+{
+  "name": "TimeChecker",
+  "main": "main/index.html",
+  "version": "0.0.1",
+  "single-instance": true,
+  "window": {
+    "title": "TimeChecker",
+    "width": 350,
+    "height": 600,
+    "min_width": 350,
+    "min_height": 600,
+    "max_width": 800,
+    "max_height": 600,
+    "toolbar": false,
+    "resizable": false,
+    "icon": "main/images/1454965777.png"
+  },
+  "chromium-args": "--child-clean-exit --forced-compositing-mode --allow-file-access-from-files",
+  "dependencies": {
+    "nodemailer": "^2.1.0"
+  }
+}

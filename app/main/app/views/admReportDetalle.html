@@ -1,0 +1,47 @@
+<div class="row">
+  <div class="control-group">
+    <div class="controls">
+
+      <div class="col-sm-12">
+        <label for="dpDTTo" class="control-label">Vendedor:</label>
+        <div class="input-group">
+          <select id="dpDTUser" type="text" class="form-control">
+          </select>
+          <label for="dpDTUser" class="input-group-addon btn"><span class="glyphicon glyphicon-user"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <label for="dpDTFrom" class="control-label">Inicio:</label>
+        <div class="input-group">
+          <input id="dpDTFrom" type="text" class="date-picker form-control" data-provide="datepicker" data-date-end-date="0d" disabled/>
+          <label for="dpDTFrom" class="input-group-addon btn"><span class="glyphicon glyphicon-calendar"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <label for="dpDTTo" class="control-label">Fin:</label>
+        <div class="input-group">
+          <input id="dpDTTo" type="text" class="date-picker form-control" data-provide="datepicker" data-date-end-date="0d" disabled/>
+          <label for="dpDTTo" class="input-group-addon btn"><span class="glyphicon glyphicon-calendar"></span>
+          </label>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+<div class="divider"></div>
+<div class="row">
+  <div style="overflow-x: auto; overflow-y: auto; height: 320px;">
+    <table class="table-bordered" style="min-width: 600px;">
+      <!--caption>Reporte con el detealle de horas por dia</caption-->
+      <thead id="tblRepDTH" align="center"></thead>
+      <tbody id="tblRepDTB"></tbody>
+    </table>
+  </div>
+</div>
