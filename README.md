@@ -29,3 +29,16 @@ $ npm install moment --prefix=./app/main/
 ### Notes
 
 For send the mail please change in ```app/main/index.js``` a valid mail user and password in the options of ```window.MAIL_CONFIG```
+
+
+### Screenshots
+
+![alt tag](https://raw.githubusercontent.com/joystor/TimeChecker/master/screen/Screenshot%20from%202016-03-08%2010-39-00.png)
+
+![alt tag](https://raw.githubusercontent.com/joystor/TimeChecker/master/screen/Screenshot%20from%202016-03-08%2010-39-42.png)
+
+![alt tag](https://raw.githubusercontent.com/joystor/TimeChecker/master/screen/Screenshot%20from%202016-03-08%2010-39-55.png)
+
+![alt tag](https://raw.githubusercontent.com/joystor/TimeChecker/master/screen/Screenshot%20from%202016-03-08%2010-40-17.png)
+
+![alt tag](https://raw.githubusercontent.com/joystor/TimeChecker/master/screen/Screenshot%20from%202016-03-08%2010-40-36.png)
